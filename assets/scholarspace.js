@@ -257,7 +257,7 @@ function Nav() {
     },
     style: {
       position: "fixed",
-      top: 0,
+      top: 44,
       left: 0,
       right: 0,
       zIndex: 1000,
@@ -1275,15 +1275,19 @@ export default function ScholarSpace() {
           stiffness: 120
         },
         style: {
-          position: "relative",
-          zIndex: 200,
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          zIndex: 1001,
           background: "linear-gradient(90deg, #16a34a 0%, #22c55e 50%, #16a34a 100%)",
           boxShadow: "0 4px 32px rgba(34,197,94,0.5)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
           gap: 12,
-          padding: "14px 24px",
+          padding: "12px 24px",
+          height: 44,
           flexWrap: "wrap"
         },
         children: [_jsx(motion.div, {
@@ -1350,7 +1354,7 @@ export default function ScholarSpace() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          padding: "120px clamp(1.5rem,6vw,5rem) 80px",
+          padding: "160px clamp(1.5rem,6vw,5rem) 80px",
           gap: "clamp(2rem,5vw,5rem)",
           flexWrap: "wrap"
         },

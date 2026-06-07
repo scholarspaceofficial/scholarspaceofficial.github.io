@@ -278,21 +278,13 @@ function Nav() {
         alignItems: "center",
         gap: 10
       },
-      children: [_jsx("div", {
+      children: [_jsx("img", {
+        src: "/assets/scholarspace-logo.svg",
+        alt: "ScholarSpace",
         style: {
-          width: 32,
-          height: 32,
-          borderRadius: 8,
-          background: "linear-gradient(135deg,#3B82F6,#60A5FA)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          fontFamily: "'Syne',sans-serif",
-          fontWeight: 800,
-          fontSize: 13,
-          color: "#04080F"
-        },
-        children: "SS"
+          width: 36,
+          height: 36
+        }
       }), _jsxs("span", {
         className: "syne",
         style: {
@@ -1410,6 +1402,52 @@ export default function ScholarSpace() {
               },
               children: "How It Works"
             })]
+          }), _jsxs(motion.div, {
+            initial: {
+              opacity: 0,
+              y: 10
+            },
+            animate: {
+              opacity: 1,
+              y: 0
+            },
+            transition: {
+              duration: 0.6,
+              delay: 0.48
+            },
+            style: {
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              marginTop: 18
+            },
+            children: [_jsxs("svg", {
+              width: "16",
+              height: "16",
+              viewBox: "0 0 16 16",
+              fill: "none",
+              xmlns: "http://www.w3.org/2000/svg",
+              children: [_jsx("circle", {
+                cx: "8",
+                cy: "8",
+                r: "7.5",
+                stroke: "#22C55E",
+                strokeWidth: "1"
+              }), _jsx("path", {
+                d: "M4.5 8l2.5 2.5 4.5-5",
+                stroke: "#22C55E",
+                strokeWidth: "1.5",
+                strokeLinecap: "round",
+                strokeLinejoin: "round"
+              })]
+            }), _jsx("span", {
+              style: {
+                fontSize: "clamp(0.78rem,1.2vw,0.85rem)",
+                color: "#94A3B8",
+                letterSpacing: "0.01em"
+              },
+              children: "No upfront payment required \u2014 pay only when you're satisfied"
+            })]
           }), _jsx(motion.div, {
             initial: {
               opacity: 0
@@ -1667,21 +1705,13 @@ export default function ScholarSpace() {
                 gap: 10,
                 marginBottom: 8
               },
-              children: [_jsx("div", {
+              children: [_jsx("img", {
+                src: "/assets/scholarspace-logo.svg",
+                alt: "ScholarSpace",
                 style: {
-                  width: 28,
-                  height: 28,
-                  borderRadius: 7,
-                  background: "linear-gradient(135deg,#3B82F6,#60A5FA)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontFamily: "'Syne',sans-serif",
-                  fontWeight: 800,
-                  fontSize: 12,
-                  color: "#04080F"
-                },
-                children: "SS"
+                  width: 30,
+                  height: 30
+                }
               }), _jsxs("span", {
                 className: "syne",
                 style: {

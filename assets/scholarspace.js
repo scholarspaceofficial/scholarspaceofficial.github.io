@@ -811,91 +811,91 @@ const unis = [{
   abbr: "MIT",
   country: "🇺🇸",
   full: "Massachusetts Institute of Technology",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/200px-MIT_logo.svg.png"
+  logo: "/assets/logos/mit.svg"
 }, {
   name: "Harvard",
   abbr: "HU",
   country: "🇺🇸",
   full: "Harvard University",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/200px-Harvard_University_logo.svg.png"
+  logo: "/assets/logos/harvard.svg"
 }, {
   name: "Stanford",
   abbr: "SU",
   country: "🇺🇸",
   full: "Stanford University",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stanford_Cardinal_logo.svg/200px-Stanford_Cardinal_logo.svg.png"
+  logo: "/assets/logos/stanford.svg"
 }, {
   name: "Columbia",
   abbr: "CU",
   country: "🇺🇸",
   full: "Columbia University",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/150px-Columbia_University_shield.svg.png"
+  logo: "/assets/logos/columbia.svg"
 }, {
   name: "NYU",
   abbr: "NYU",
   country: "🇺🇸",
   full: "New York University",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/NYU_logo.svg/200px-NYU_logo.svg.png"
+  logo: "/assets/logos/nyu.svg"
 }, {
   name: "UCLA",
   abbr: "UCLA",
   country: "🇺🇸",
   full: "Univ. of California, LA",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Bruins_wordmark.svg/200px-Bruins_wordmark.svg.png"
+  logo: "/assets/logos/ucla.svg"
 }, {
   name: "USC",
   abbr: "USC",
   country: "🇺🇸",
   full: "Univ. of Southern California",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/USC_Trojans_logo.svg/160px-USC_Trojans_logo.svg.png"
+  logo: "/assets/logos/usc.svg"
 }, {
   name: "UT Austin",
   abbr: "UTA",
   country: "🇺🇸",
   full: "University of Texas at Austin",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Texas_Longhorns_logo.svg/150px-Texas_Longhorns_logo.svg.png"
+  logo: "/assets/logos/ut-austin.svg"
 }, {
   name: "U of Melbourne",
   abbr: "UoM",
   country: "🇦🇺",
   full: "University of Melbourne",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Unimelb_logo_zigzag.svg/200px-Unimelb_logo_zigzag.svg.png"
+  logo: "/assets/logos/umelbourne.svg"
 }, {
   name: "ANU",
   abbr: "ANU",
   country: "🇦🇺",
   full: "Australian National University",
-  logo: "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/ANU_coat_of_arms.svg/150px-ANU_coat_of_arms.svg.png"
+  logo: "/assets/logos/anu.svg"
 }, {
   name: "UNSW",
   abbr: "UNSW",
   country: "🇦🇺",
   full: "Univ. of New South Wales",
-  logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/UNSW_Sydney_logo.png/200px-UNSW_Sydney_logo.png"
+  logo: "/assets/logos/unsw.svg"
 }, {
   name: "U of Sydney",
   abbr: "USYD",
   country: "🇦🇺",
   full: "University of Sydney",
-  logo: "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/University_of_Sydney_coat_of_arms.svg/150px-University_of_Sydney_coat_of_arms.svg.png"
+  logo: "/assets/logos/usyd.svg"
 }, {
   name: "Monash",
   abbr: "MU",
   country: "🇦🇺",
   full: "Monash University",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Monash_University_logo.svg/200px-Monash_University_logo.svg.png"
+  logo: "/assets/logos/monash.svg"
 }, {
   name: "UQ",
   abbr: "UQ",
   country: "🇦🇺",
   full: "University of Queensland",
-  logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/University_of_Queensland_coat_of_arms.svg/150px-University_of_Queensland_coat_of_arms.svg.png"
+  logo: "/assets/logos/uq.svg"
 }, {
   name: "UWA",
   abbr: "UWA",
   country: "🇦🇺",
   full: "University of Western Australia",
-  logo: "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/University_of_Western_Australia_coat_of_arms.svg/150px-University_of_Western_Australia_coat_of_arms.svg.png"
+  logo: "/assets/logos/uwa.svg"
 }];
 const accentColors = ["#3B82F6", "#60A5FA", "#38BDF8", "#818CF8", "#6EE7B7", "#93C5FD", "#7DD3FC", "#A5B4FC", "#5EEAD4", "#BAE6FD", "#C7D2FE", "#67E8F9", "#4ADE80", "#34D399", "#22D3EE"];
 function UniMarquee() {

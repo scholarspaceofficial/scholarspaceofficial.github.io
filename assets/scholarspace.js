@@ -1263,68 +1263,86 @@ export default function ScholarSpace() {
       children: [_jsxs(motion.div, {
         initial: {
           opacity: 0,
-          y: -20
+          y: -40
         },
         animate: {
           opacity: 1,
           y: 0
         },
         transition: {
-          duration: 0.5
+          duration: 0.6,
+          type: "spring",
+          stiffness: 120
         },
         style: {
-          position: "sticky",
-          top: 0,
-          zIndex: 100,
-          background: "linear-gradient(90deg, #052e16 0%, #14532d 50%, #052e16 100%)",
-          borderBottom: "1px solid rgba(34,197,94,0.3)",
+          position: "relative",
+          zIndex: 200,
+          background: "linear-gradient(90deg, #16a34a 0%, #22c55e 50%, #16a34a 100%)",
+          boxShadow: "0 4px 32px rgba(34,197,94,0.5)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          gap: 10,
-          padding: "11px 24px"
+          gap: 12,
+          padding: "14px 24px",
+          flexWrap: "wrap"
         },
-        children: [_jsxs("svg", {
-          width: "18",
-          height: "18",
-          viewBox: "0 0 18 18",
+        children: [_jsx(motion.div, {
+          animate: {
+            x: ["-100%", "200%"]
+          },
+          transition: {
+            duration: 2.5,
+            repeat: Infinity,
+            repeatDelay: 3,
+            ease: "easeInOut"
+          },
+          style: {
+            position: "absolute",
+            inset: 0,
+            background: "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.18) 50%, transparent 100%)",
+            pointerEvents: "none"
+          }
+        }), _jsxs("svg", {
+          width: "20",
+          height: "20",
+          viewBox: "0 0 20 20",
           fill: "none",
           children: [_jsx("circle", {
-            cx: "9",
-            cy: "9",
-            r: "8.5",
-            stroke: "#22C55E",
-            strokeWidth: "1.2"
+            cx: "10",
+            cy: "10",
+            r: "9",
+            fill: "white",
+            opacity: "0.25"
           }), _jsx("path", {
-            d: "M5 9l3 3 5-6",
-            stroke: "#22C55E",
-            strokeWidth: "1.8",
+            d: "M6 10l3 3 5-6",
+            stroke: "white",
+            strokeWidth: "2",
             strokeLinecap: "round",
             strokeLinejoin: "round"
           })]
         }), _jsx("span", {
           style: {
             fontFamily: "'Syne', sans-serif",
-            fontWeight: 700,
-            fontSize: "clamp(0.8rem, 1.4vw, 0.95rem)",
-            color: "#86efac",
-            letterSpacing: "0.02em"
+            fontWeight: 800,
+            fontSize: "clamp(0.85rem, 1.5vw, 1rem)",
+            color: "#ffffff",
+            letterSpacing: "0.03em"
           },
-          children: "No upfront payment required"
+          children: "NO UPFRONT PAYMENT REQUIRED"
         }), _jsx("span", {
           style: {
             width: 1,
-            height: 14,
-            background: "rgba(34,197,94,0.3)",
+            height: 16,
+            background: "rgba(255,255,255,0.4)",
             display: "inline-block"
           }
         }), _jsx("span", {
           style: {
-            fontSize: "clamp(0.75rem, 1.2vw, 0.85rem)",
-            color: "#4ade80",
-            letterSpacing: "0.01em"
+            fontSize: "clamp(0.8rem, 1.3vw, 0.9rem)",
+            color: "rgba(255,255,255,0.9)",
+            fontWeight: 500
           },
-          children: "Pay only when you're 100% satisfied with your result"
+          children: "Pay only when you're 100% satisfied \u2713"
         })]
       }), _jsx(Nav, {}), _jsxs("section", {
         style: {

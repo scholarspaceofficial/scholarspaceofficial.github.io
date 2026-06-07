@@ -808,94 +808,154 @@ function TimelineStep({
 }
 const unis = [{
   name: "MIT",
-  abbr: "MIT",
   country: "🇺🇸",
-  full: "Massachusetts Institute of Technology",
-  logo: "/assets/logos/mit.svg"
+  full: "Massachusetts Inst. of Technology",
+  logo: "/assets/logos/mit.png"
 }, {
   name: "Harvard",
-  abbr: "HU",
   country: "🇺🇸",
   full: "Harvard University",
-  logo: "/assets/logos/harvard.svg"
+  logo: "/assets/logos/harvard.png"
 }, {
   name: "Stanford",
-  abbr: "SU",
   country: "🇺🇸",
   full: "Stanford University",
-  logo: "/assets/logos/stanford.svg"
+  logo: "/assets/logos/stanford.png"
 }, {
   name: "Columbia",
-  abbr: "CU",
   country: "🇺🇸",
   full: "Columbia University",
-  logo: "/assets/logos/columbia.svg"
+  logo: "/assets/logos/columbia.png"
 }, {
   name: "NYU",
-  abbr: "NYU",
   country: "🇺🇸",
   full: "New York University",
-  logo: "/assets/logos/nyu.svg"
+  logo: "/assets/logos/nyu.png"
 }, {
   name: "UCLA",
-  abbr: "UCLA",
   country: "🇺🇸",
   full: "Univ. of California, LA",
-  logo: "/assets/logos/ucla.svg"
+  logo: "/assets/logos/ucla.png"
 }, {
   name: "USC",
-  abbr: "USC",
   country: "🇺🇸",
   full: "Univ. of Southern California",
-  logo: "/assets/logos/usc.svg"
+  logo: "/assets/logos/usc.png"
 }, {
   name: "UT Austin",
-  abbr: "UTA",
   country: "🇺🇸",
   full: "University of Texas at Austin",
-  logo: "/assets/logos/ut-austin.svg"
+  logo: "/assets/logos/ut-austin.png"
 }, {
-  name: "U of Melbourne",
-  abbr: "UoM",
+  name: "U of Michigan",
+  country: "🇺🇸",
+  full: "University of Michigan",
+  logo: "/assets/logos/umich.png"
+}, {
+  name: "Georgia Tech",
+  country: "🇺🇸",
+  full: "Georgia Institute of Technology",
+  logo: "/assets/logos/gatech.png"
+}, {
+  name: "Oxford",
+  country: "🇬🇧",
+  full: "University of Oxford",
+  logo: "/assets/logos/oxford.png"
+}, {
+  name: "Cambridge",
+  country: "🇬🇧",
+  full: "University of Cambridge",
+  logo: "/assets/logos/cambridge.png"
+}, {
+  name: "Imperial",
+  country: "🇬🇧",
+  full: "Imperial College London",
+  logo: "/assets/logos/imperial.png"
+}, {
+  name: "UCL",
+  country: "🇬🇧",
+  full: "University College London",
+  logo: "/assets/logos/ucl.png"
+}, {
+  name: "Manchester",
+  country: "🇬🇧",
+  full: "University of Manchester",
+  logo: "/assets/logos/manchester.png"
+}, {
+  name: "Melbourne",
   country: "🇦🇺",
   full: "University of Melbourne",
-  logo: "/assets/logos/umelbourne.svg"
+  logo: "/assets/logos/umelbourne.png"
 }, {
   name: "ANU",
-  abbr: "ANU",
   country: "🇦🇺",
   full: "Australian National University",
-  logo: "/assets/logos/anu.svg"
+  logo: "/assets/logos/anu.png"
 }, {
   name: "UNSW",
-  abbr: "UNSW",
   country: "🇦🇺",
   full: "Univ. of New South Wales",
-  logo: "/assets/logos/unsw.svg"
+  logo: "/assets/logos/unsw.png"
 }, {
   name: "U of Sydney",
-  abbr: "USYD",
   country: "🇦🇺",
   full: "University of Sydney",
-  logo: "/assets/logos/usyd.svg"
+  logo: "/assets/logos/usyd.png"
 }, {
   name: "Monash",
-  abbr: "MU",
   country: "🇦🇺",
   full: "Monash University",
-  logo: "/assets/logos/monash.svg"
+  logo: "/assets/logos/monash.png"
 }, {
   name: "UQ",
-  abbr: "UQ",
   country: "🇦🇺",
   full: "University of Queensland",
-  logo: "/assets/logos/uq.svg"
+  logo: "/assets/logos/uq.png"
 }, {
   name: "UWA",
-  abbr: "UWA",
   country: "🇦🇺",
-  full: "University of Western Australia",
-  logo: "/assets/logos/uwa.svg"
+  full: "Univ. of Western Australia",
+  logo: "/assets/logos/uwa.png"
+}, {
+  name: "U of Toronto",
+  country: "🇨🇦",
+  full: "University of Toronto",
+  logo: "/assets/logos/utoronto.png"
+}, {
+  name: "UBC",
+  country: "🇨🇦",
+  full: "Univ. of British Columbia",
+  logo: "/assets/logos/ubc.png"
+}, {
+  name: "McGill",
+  country: "🇨🇦",
+  full: "McGill University",
+  logo: "/assets/logos/mcgill.png"
+}, {
+  name: "NUS",
+  country: "🇸🇬",
+  full: "National Univ. of Singapore",
+  logo: "/assets/logos/nus.png"
+}, {
+  name: "NTU",
+  country: "🇸🇬",
+  full: "Nanyang Technological University",
+  logo: "/assets/logos/ntu.png"
+}, {
+  name: "HKU",
+  country: "🇭🇰",
+  full: "University of Hong Kong",
+  logo: "/assets/logos/hku.png"
+}, {
+  name: "IIT Bombay",
+  country: "🇮🇳",
+  full: "Indian Inst. of Technology Bombay",
+  logo: "/assets/logos/iitbombay.png"
+}, {
+  name: "Delhi Univ",
+  country: "🇮🇳",
+  full: "University of Delhi",
+  logo: "/assets/logos/delhi.png"
 }];
 const accentColors = ["#3B82F6", "#60A5FA", "#38BDF8", "#818CF8", "#6EE7B7", "#93C5FD", "#7DD3FC", "#A5B4FC", "#5EEAD4", "#BAE6FD", "#C7D2FE", "#67E8F9", "#4ADE80", "#34D399", "#22D3EE"];
 function UniMarquee() {
@@ -933,7 +993,7 @@ function UniMarquee() {
           },
           children: ["Top Universities Across", " ", _jsx("span", {
             className: "blue-text",
-            children: "USA & Australia"
+            children: "7 Countries Worldwide"
           })]
         }), _jsx("p", {
           style: {
@@ -943,7 +1003,7 @@ function UniMarquee() {
             maxWidth: 520,
             margin: "14px auto 0"
           },
-          children: "We've helped students from 15 of the world's most prestigious institutions secure their grades and reclaim their time."
+          children: "We've helped students from 30 of the world's most prestigious institutions secure their grades and reclaim their time."
         })]
       })
     }), _jsx("div", {
@@ -1047,8 +1107,7 @@ function UniMarquee() {
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
-                  filter: "brightness(0) invert(1)",
-                  opacity: 0.9
+                  opacity: 1
                 },
                 onError: () => {
                   setFailedLogos(current => {
@@ -1129,7 +1188,7 @@ function UniMarquee() {
           marginTop: "clamp(2rem,4vw,3.5rem)",
           padding: "0 clamp(1.5rem,4vw,3rem)"
         },
-        children: [["15", "Elite Universities"], ["2", "Countries Covered"], ["500+", "Students Served"], ["#1", "For Discretion"]].map(([val, label]) => _jsxs("div", {
+        children: [["30", "Elite Universities"], ["7", "Countries Covered"], ["500+", "Students Served"], ["#1", "For Discretion"]].map(([val, label]) => _jsxs("div", {
           style: {
             textAlign: "center"
           },
